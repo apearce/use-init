@@ -1,0 +1,34 @@
+{
+  "name": "use-init",
+  "version": "0.0.1",
+  "description": "It's sorta like useMemo without your linter yelling at you",
+  "main": "./lib/use-init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apearce/use-init.git"
+  },
+  "keywords": [
+    "React",
+    "Hooks"
+  ],
+  "files": [
+    "lib"
+  ],
+  "author": "Alan Pearce <alan.pearce@alttag.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apearce/use-init/issues"
+  },
+  "homepage": "https://github.com/apearce/use-init#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.70",
+    "typescript": "^5.4.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}
