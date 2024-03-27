@@ -4,8 +4,9 @@
   "description": "It's sorta like useMemo without your linter yelling at you",
   "main": "./lib/use-init.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,8 @@
   },
   "keywords": [
     "React",
-    "Hooks"
+    "Hooks",
+    "Initialize"
   ],
   "files": [
     "lib"
