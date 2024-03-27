@@ -1,6 +1,6 @@
 {
   "name": "use-init",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "It's sorta like useMemo without your linter yelling at you",
   "main": "./lib/use-init.js",
   "scripts": {
