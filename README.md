@@ -14,7 +14,7 @@ if (playerRef.current === null) {
 Instead you can just write:
 
 ```jsx
-const player = useInit(() => new VidePlayer());
+const player = useInit(() => new VideoPlayer());
 ```
 
 You then use the player by just calling `player` instead of `player.current`;
